@@ -1,0 +1,6 @@
+{
+  "name": "Formação Santa Missa",
+  "description": "Aplicativo completo de formação católica sobre a Santa Missa: liturgia, fundamentação bíblica, ensinamentos da Igreja e teologia eucarística.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

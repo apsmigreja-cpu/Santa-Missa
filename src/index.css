@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-liturgical-wine: #5C1D2A;
+  --color-liturgical-wine-dark: #40101B;
+  --color-liturgical-wine-light: #7A2739;
+  --color-liturgical-gold: #C59B27;
+  --color-liturgical-gold-light: #E5C158;
+  --color-liturgical-gold-soft: #F9F3DF;
+  --color-liturgical-cream: #FAF7F2;
+  --color-liturgical-paper: #F4EFEB;
+  --color-liturgical-charcoal: #1C1917;
+}
+
+@layer base {
+  body {
+    background-color: #FAF7F2;
+    color: #1C1917;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: #F0DFC8;
+    color: #5C1D2A;
+  }
+}
+
+/* Custom scrollbar for liturgical reading */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CEBE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B4A792;
+}
