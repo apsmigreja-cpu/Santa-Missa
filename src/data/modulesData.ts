@@ -1,4 +1,10 @@
 import { ModuleData } from '../types';
+import {
+  catacombBreakingBreadImage,
+  heroAltarEucharistImage,
+  amboLectionaryWordImage,
+  consecrationChaliceHostImage,
+} from '../assets/images';
 
 export const APP_CONFIG = {
   provisionalName: 'Curso sobre a Santa Missa',
@@ -15,7 +21,7 @@ export const MODULES_DATA: ModuleData[] = [
     subtitle: 'Origem, teologia e fundamento do Sacrifício Eucarístico',
     description: 'Compreenda o mistério central da fé católica: a Missa como sacrifício de Cristo perpetuado nos altares, sua instituição na Última Ceia e sua vivência na Igreja primitiva.',
     iconName: 'BookOpen',
-    image: '/src/assets/images/catacomb_breaking_bread_1794092585591.jpg',
+    image: catacombBreakingBreadImage,
     lessons: [
       {
         id: 'm1-a1',
@@ -272,7 +278,7 @@ export const MODULES_DATA: ModuleData[] = [
     subtitle: 'Da reunião dos fiéis à Coleta que abre a celebração',
     description: 'Aprenda o propósito dos ritos preliminares: congregar o povo de Deus, purificar o coração arrependido e dispor o espírito para ouvir a Palavra e celebrar a Eucaristia.',
     iconName: 'Church',
-    image: '/src/assets/images/hero_altar_eucharist_1794092583985.jpg',
+    image: heroAltarEucharistImage,
     lessons: [
       {
         id: 'm2-a1',
@@ -611,7 +617,7 @@ export const MODULES_DATA: ModuleData[] = [
     subtitle: 'Deus fala ao Seu povo reunido',
     description: 'A mesa da Palavra de Deus alimenta e instrui a Igreja: das profecias do Antigo Testamento à proclamação do Evangelho, a homilia e a profissão de fé.',
     iconName: 'BookMarked',
-    image: '/src/assets/images/ambo_lectionary_word_1794092585404.jpg',
+    image: amboLectionaryWordImage,
     lessons: [
       {
         id: 'm3-a1',
@@ -929,7 +935,7 @@ export const MODULES_DATA: ModuleData[] = [
     subtitle: 'O Coração e o Cume da Celebração',
     description: 'Do ofertório à Oração Eucarística e ao grande Amém: onde os dons do pão e do vinho se tornam o Corpo e o Sangue de Cristo pelo poder do Espírito Santo.',
     iconName: 'Flame',
-    image: '/src/assets/images/consecration_chalice_host_1794092584133.jpg',
+    image: consecrationChaliceHostImage,
     lessons: [
       {
         id: 'm4-a1',
@@ -1349,7 +1355,7 @@ export const MODULES_DATA: ModuleData[] = [
     subtitle: 'A Participação no Banquete Pascal do Cordeiro',
     description: 'Do Pai-Nosso à comunhão sacramental e à ação de graças: onde recebemos o próprio Cristo como pão da vida e garantia da imortalidade futura.',
     iconName: 'Heart',
-    image: '/src/assets/images/consecration_chalice_host_1794092584133.jpg',
+    image: consecrationChaliceHostImage,
     lessons: [
       {
         id: 'm5-a1',
@@ -1626,7 +1632,7 @@ export const MODULES_DATA: ModuleData[] = [
     subtitle: 'O Envio em Missão e o Testemunho no Mundo',
     description: 'A bênção e o envio missionário: como transformar a Missa celebrada em vida quotidiana e caridade no mundo.',
     iconName: 'Send',
-    image: '/src/assets/images/hero_altar_eucharist_1794092583985.jpg',
+    image: heroAltarEucharistImage,
     lessons: [
       {
         id: 'm6-a1',
@@ -1765,7 +1771,7 @@ export const MODULES_DATA: ModuleData[] = [
     subtitle: 'Mistérios Doutrinários da Eucaristia',
     description: 'Estudo sólido dos dogmas eucarísticos: Presença Real, Transubstanciação, Memorial Sacrifical, Adoração Eucarística e a participação ativa segundo o Concílio.',
     iconName: 'Sparkles',
-    image: '/src/assets/images/consecration_chalice_host_1794092584133.jpg',
+    image: consecrationChaliceHostImage,
     lessons: [
       {
         id: 'm7-a1',

@@ -16,6 +16,10 @@ import {
 } from 'lucide-react';
 import { APP_CONFIG, MODULES_DATA } from '../data/modulesData';
 import { PWAInstallButton } from './PWAInstallButton';
+import {
+  heroAltarEucharistImage,
+  consecrationChaliceHostImage,
+} from '../assets/images';
 
 interface HomeViewProps {
   onStartCourse: () => void;
@@ -103,7 +107,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-2xl overflow-hidden border border-[#D8CEBE] shadow-xl aspect-4/3 sm:aspect-16/10 lg:aspect-4/3 bg-[#F4EFEB]">
                 <img
-                  src="/src/assets/images/hero_altar_eucharist_1794092583985.jpg"
+                  src={heroAltarEucharistImage}
                   alt="Altar da Santa Missa em solene celebração católica com velas acesas e cálice sagrado"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -179,7 +183,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden border border-[#E5C158]/40 shadow-lg aspect-4/3 bg-[#40101B]">
                 <img
-                  src="/src/assets/images/consecration_chalice_host_1794092584133.jpg"
+                  src={consecrationChaliceHostImage}
                   alt="Momento solene da consagração e elevação do cálice e da hóstia santa"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
